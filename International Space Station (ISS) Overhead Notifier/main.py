@@ -1,3 +1,9 @@
+#Project Description:	An algorithm that tracks the location of the ISS using its latitude and 
+#                       longitude coordinates (API endpoint – http://api.open-notify.org/iss-now.json) and 
+#                       notifies random registered persons when it is flying over their location 
+#                       (Individual persons’ coordinates were got from – https://www.LatLong.net) 
+
+
 import requests
 from datetime import datetime
 import smtplib
